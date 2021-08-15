@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Nunito:wght@700&family=Poppins:wght@400;500;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <!--whatsapp for contact form-->
+    <script>
+        function gotowhatsapp() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+            var subject = document.getElementById("subject").value;
+            var phone = document.getElementById("phone").value;
+
+            var url = "https://wa.me/919910768114?text="
+            + "Name: " + name + "%0a"
+            + "Email: " + email + "%0a"
+            + "Subject: " + subject + "%0a"
+            + "Phone: " + phone + "%0a"
+            + "Message: " + message ;
+
+            window.open(url, '_blank').focus();
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand-title">
+          <img src="images/logo.png" alt="">
+        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+        <ul>
+            <li class="list"> <a href="product.html"> All Products </a></li>
+            <li class="btn"> <a href="whatsapp://send?text=Hello R.S Enterprices&amp;phone=+919910768114" target="_blank">Order Now </a></li>
+        </ul>
+    </div>
+    </nav>
+    <div class="main-banner">
+        <img src="images/banner.png" alt="" width="100%">
+       <button class="butn-btn">   Order Food </button>
+    </div>
+
+    <div class="about">
+        <div class="mob-left">
+            <h3>About Us</h3>
+            <h1>Cheese products best in class</h1>
+            <p >R.S. Enterprise has melange products like Italian, 
+                Danish , Spanish , Greek, Dutch and Specialty cheese made available from the finest quality of 
+                products from all over the world made delivered at your doorstep.
+            </p>
+            <a href="whatsapp://send?text=Hello, Let's Connect&amp;phone=+919910768114" target="_blank" class="button-btn">Lets Connect </a>
+        </div>
+        <div>
+            <img src="images/Avatar Image.png" alt="">
+        </div>
+    </div>
+    <div class="selection">
+        <h3>Why people choose us?</h3>
+     
+    </div>
+    <div class="box">
+        <div class="content">
+           <img src="images/orders.png" alt="">
+           <h4>250+</h4>
+           <p>Orders Successfully Done</p>
+        </div>
+        <div class="content">
+           <img src="images/orders.png" alt="">
+           <h4>100+</h4>
+           <p>Customers and Counting</p>
+        </div>
+        <div class="content">
+           <img src="images/orders.png" alt="">
+           <h4>50+</h4>
+           <p>Retail & Restaurants Partners</p>
+        </div>
+    </div>
+    
+    <!--   <div class="menu-heading">
+             <h4>Popular Menu</h4>
+             <h1>Our Customer’s Favorite<br> Products</h1>        
+         </div>
+        <div class="products">
+       
+            <div class="product-1"> 
+            
+                <div class="product-image">
+                    <img src="images/gouda.png" alt=""> 
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <h3>Gouda</h4>
+                            <p>Rendang is a dish made from processed meat, cooked with spices and coconut milk</p>
+                            <p>$12.00</p>
+                            <a href="" class="button-btn"> <img src="buy-now.png" alt=""> Buy Now </a>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="product-2">
+            
+                <div class="product-image">
+                    <img src="images/italian-hard-cheese.png" alt=""> 
+                </div>
+                <div class="items">    
+                    <div class="item">
+                        <h3>Italian Hard Cheese</h4>
+                        <p>Indonesian meatball, served with noodles and broth</p>
+                        <p>$12.00</p>
+                        <a href="" class="button-btn"> <img src="buy-now.png" alt=""> Buy Now </a>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="product-3" >
+                <div class="product-image">
+                    <img src="images/feta.png" alt=""> 
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <h3>Feta</h4>
+                        <p>Fried rice typically flavored with shrimp paste, chili.</p>
+                        <p>$12.00</p>
+                        <a href="" class="button-btn"> <img src="buy-now.png" alt=""> Buy Now </a>
+                    </div>
+                </div>
+            
+            </div>
+        
+        </div>  -->
+         
+    <section>
+        <div class="container">
+        <h4 class="menu-top">Popular Menu</h4>
+        <h1 class="heading">Our Customer’s Favorite<br> Products</h1>  
+        <div class="card-wrapper">
+            <div class="card">
+                <img src="images/gouda.png" alt="" class="profile-img">
+                <h1>Gouda</h1>
+                <p class="job-title">Rendang is a dish made from processed meat, cooked with spices and coconut milk</p>
+                <a href="whatsapp://send?text=Hello R.S Enterprices! Need to buy gouda&amp;phone=+919910768114" target="_blank" class="btn-btn"> Buy Now </a>
+            </div>
+            <div class="card">
+                <img src="images/italian-hard-cheese.png" alt="" class="profile-img">
+                <h1>Italian Hard Cheese</h1>
+                <p class="job-title">Indonesian meatball, served with noodles and broth</p>
+                <a href="whatsapp://send?text=Hello R.S Enterprices! Need to buy italian-hard-cheese&amp;phone=+919910768114" target="_blank" class="btn-btn"> Buy Now </a>
+            </div>
+            <div class="card">
+                <img src="images/feta.png" alt="" class="profile-img">
+                <h1>Feta</h1>
+                <p class="job-title">Fried rice typically flavored with shrimp paste, chili.</p>
+                <a href="whatsapp://send?text=Hello R.S Enterprices! Need to buy feta&amp;phone=+919910768114" target="_blank" class="btn-btn"> Buy Now </a>
+            </div>
+            
+        </div>  
+    </div>
+        <h5 class="menu-bottom"><a href="product.html"> View All</a></h5>
+    </section>
+
+    <div class="serve">
+        <div class="serve-img">
+            <img src="images/serve.png" alt="" class="banner">
+        </div>
+         <div>
+            <h3>What We Serve</h3>
+            <h1>The Best Indian Cheese Items</h1>
+
+
+
+            <div>
+                <div class="serve-right">
+                    <div class="serve-logo">
+                        <img src="images/favourite.png" alt="">
+                    </div>
+                    <div class="serve-text">
+                        <h4>Choose Your Favourite</h4>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="serve-right">
+                    <div class="serve-logo">
+                        <img src="images/favourite.png" alt="">
+                    </div>
+                    <div class="serve-text">
+                        <h4>We Deliver Your Favor</h4>
+                        <p>We will deliver your meal ontime, wherever you are</p>
+                    </div>
+                </div>
+                <div class="serve-right">
+                    <div class="serve-logo">
+                        <img src="images/favourite.png" alt="">
+                    </div>
+                    <div class="serve-text">
+                        <h4>Healthy, Delicious and Authentic Meal</h4>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+
+        </div>
+        
+    </div>
+
+    <section>
+        <h4 class="menu-top">What They Say</h4>
+        <h1 class="heading">What Our Customer Say About Us ?</h1>  
+      
+    </section> 
+
+    <div class="order-now">
+        <div class="order-row">
+            <div class="order-banner">
+               <img src="images/order-now.png" alt="">
+                <h3 class="order-heading">Order Now</h3>
+                <h1>Lorem Ipsum is simply dummy text</h1>
+                <button class="order-btn">   Order Food </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="partner">
+        <div class="partner-img">
+            <div class="partner-row">
+                <img src="images/hiloor.png" alt="">
+                <img src="images/ilchester.png" alt="">
+                <img src="images/kraft.png" alt="">
+            </div>
+            <div class="partner-row">
+                <img src="images/kraft-he.png" alt="">
+                <img src="images/murray.png" alt="">
+                <img src="images/neate.png" alt="">
+            </div>
+            <div class="partner-row">
+                <img src="images/nestle.png" alt="">
+                <img src="images/cheek-cheese.png" alt="">
+                <img src="images/rouge.png" alt="">
+            </div>
+            <div class="partner-row">
+                <img src="images/hiloor.png" alt="">
+                <img src="images/ilchester.png" alt="">
+                <img src="images/kraft.png" alt="">
+            </div>
+            
+        </div>
+        <div class="partner-content">
+            <h3>Our Partners</h3>
+            <h1>Join the 50+ businesses using R.S. Enterprises</h1>
+            <p >It is a long established fact 
+                that a reader will be distracted by the readable content of a page when
+                 looking at its layout. The point of using Lorem Ipsum.
+            </p>
+            <a href="whatsapp://send?text=Hello R.S Enterprices&amp;phone=+919910768114" target="_blank" class="patner-btn">Lets Connect </a>
+        </div>
+        
+       
+    </div>
+
+    <!--              social media             -->
+    <div  class="social-media">
+        <div>
+            <h1>Follow us on Instagram</h1>
+        </div>
+        <div class="social-image">
+            <img src="images/insta.png" alt="">
+        </div>
+    </div>
+
+    <!--contact-us form-->
+    <div class="contact-form">
+        <div>
+            <h1>Contact us</h1>
+        </div>
+        <div class="contactForm">
+            <form autocomplete="off">
+                
+                <div class="inputBox">
+                    <div class="input">
+                    <h4>YOUR NAME</h4>
+                    <input type="text" class="name" id="name" placeholder="Name, Surname" required="required">
+              
+                     </div>
+                     <div class="input">
+                        <h4>YOUR EMAIL ADDRESS</h4>
+                        <input type="text" class="name" id="email" placeholder="Email" required="required">
+                   
+                         </div>
+                </div>
+                <div class="inputBox">
+                    <div class="input">
+                    <h4>SUBJECT</h4>
+                    <input type="text" class="name" placeholder="UI/UX Design" id="subject" required="required">
+                   
+                     </div>
+                     <div class="input">
+                        <h4>YOUR PHONE NUMBER</h4>
+                        <input type="text" class="name" placeholder="Phone" id="phone" required="required">
+                        
+                         </div>
+                </div>  
+                <div class="inputBox">
+                    <h4>HOW CAN WE HELP YOU?</h4>
+                    <textarea class="message" placeholder="Type your Message..." id="message" required="required"></textarea>
+                    
+                </div>
+              
+                <div class="inputBox">
+                    <input type="submit" name="submit" onclick="gotowhatsapp()" value="Send">
+                </div>
+                <div class="inputBox">
+                    <p>We'll get back to you in 1-2 business days.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div></div>
+
+
+    <!--  footer    -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+           
+                <div class="footer-col-1">
+                   <img src="images/logo.png" alt="">
+                    <p>Our purpouse is to sustainably make the pleasure for foodies with adding on different cheesy flavour to their special dishes.</p>
+                </div>
+                <div class="footer-col-2">
+                     <ul>
+                         <li>All Products</li>
+                         <li>Terms & Conditons</li>
+                         <li>Privacy Policy</li> 
+                         <li>Contact Us</li>
+                    </ul>
+                 </div>
+                 
+            </div>
+            <hr>
+            <p class="copyright">©R.S. Enterprises, All rights reserved.</p>
+        </div>
+    </div>
+
+</body>
+</html>
